@@ -30,6 +30,7 @@
 	NSLog(@"%s %@", __PRETTY_FUNCTION__, notification);
 	if ([[notification name] isEqualToString:@"com.apple.remotedesktop.menuClosing"] && isBeingAssisted) {
 		NSLog(@"Starting screensaver...");
+		isBeingAssisted = FALSE;
 		[[NSWorkspace sharedWorkspace] launchApplication:@"/System/Library/Frameworks/ScreenSaver.framework/Resources/ScreenSaverEngine.app/Contents/MacOS/ScreenSaverEngine"];
 	}
 	else if ([[notification name] isEqualToString:@"com.apple.remotedesktop.beingObserved"] && !isBeingAssisted) {
