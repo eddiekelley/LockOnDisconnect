@@ -1,0 +1,251 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CAC62CD180D9F390095F226 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CAC62CC180D9F390095F226 /* Foundation.framework */; };
+		2CAC62D0180D9F390095F226 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CAC62CF180D9F390095F226 /* main.m */; };
+		2CAC62D4180D9F390095F226 /* LockOnDisconnect.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2CAC62D3180D9F390095F226 /* LockOnDisconnect.1 */; };
+		2CAC62DB180DA1F30095F226 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CAC62DA180DA1F30095F226 /* AppKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2CAC62C7180D9F390095F226 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				2CAC62D4180D9F390095F226 /* LockOnDisconnect.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2CAC62C9180D9F390095F226 /* LockOnDisconnect */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LockOnDisconnect; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CAC62CC180D9F390095F226 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2CAC62CF180D9F390095F226 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2CAC62D2180D9F390095F226 /* LockOnDisconnect-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LockOnDisconnect-Prefix.pch"; sourceTree = "<group>"; };
+		2CAC62D3180D9F390095F226 /* LockOnDisconnect.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = LockOnDisconnect.1; sourceTree = "<group>"; };
+		2CAC62DA180DA1F30095F226 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CAC62C6180D9F390095F226 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CAC62DB180DA1F30095F226 /* AppKit.framework in Frameworks */,
+				2CAC62CD180D9F390095F226 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CAC62C0180D9F390095F226 = {
+			isa = PBXGroup;
+			children = (
+				2CAC62DA180DA1F30095F226 /* AppKit.framework */,
+				2CAC62CE180D9F390095F226 /* LockOnDisconnect */,
+				2CAC62CB180D9F390095F226 /* Frameworks */,
+				2CAC62CA180D9F390095F226 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CAC62CA180D9F390095F226 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CAC62C9180D9F390095F226 /* LockOnDisconnect */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CAC62CB180D9F390095F226 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CAC62CC180D9F390095F226 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2CAC62CE180D9F390095F226 /* LockOnDisconnect */ = {
+			isa = PBXGroup;
+			children = (
+				2CAC62CF180D9F390095F226 /* main.m */,
+				2CAC62D3180D9F390095F226 /* LockOnDisconnect.1 */,
+				2CAC62D1180D9F390095F226 /* Supporting Files */,
+			);
+			path = LockOnDisconnect;
+			sourceTree = "<group>";
+		};
+		2CAC62D1180D9F390095F226 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CAC62D2180D9F390095F226 /* LockOnDisconnect-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CAC62C8180D9F390095F226 /* LockOnDisconnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CAC62D7180D9F390095F226 /* Build configuration list for PBXNativeTarget "LockOnDisconnect" */;
+			buildPhases = (
+				2CAC62C5180D9F390095F226 /* Sources */,
+				2CAC62C6180D9F390095F226 /* Frameworks */,
+				2CAC62C7180D9F390095F226 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LockOnDisconnect;
+			productName = LockOnDisconnect;
+			productReference = 2CAC62C9180D9F390095F226 /* LockOnDisconnect */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CAC62C1180D9F390095F226 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Kelley Computing";
+			};
+			buildConfigurationList = 2CAC62C4180D9F390095F226 /* Build configuration list for PBXProject "LockOnDisconnect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2CAC62C0180D9F390095F226;
+			productRefGroup = 2CAC62CA180D9F390095F226 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CAC62C8180D9F390095F226 /* LockOnDisconnect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CAC62C5180D9F390095F226 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CAC62D0180D9F390095F226 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2CAC62D5180D9F390095F226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2CAC62D6180D9F390095F226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2CAC62D8180D9F390095F226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LockOnDisconnect/LockOnDisconnect-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2CAC62D9180D9F390095F226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LockOnDisconnect/LockOnDisconnect-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CAC62C4180D9F390095F226 /* Build configuration list for PBXProject "LockOnDisconnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CAC62D5180D9F390095F226 /* Debug */,
+				2CAC62D6180D9F390095F226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CAC62D7180D9F390095F226 /* Build configuration list for PBXNativeTarget "LockOnDisconnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CAC62D8180D9F390095F226 /* Debug */,
+				2CAC62D9180D9F390095F226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CAC62C1180D9F390095F226 /* Project object */;
+}
